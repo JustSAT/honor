@@ -45,12 +45,12 @@ blockquote, q {
    }
      
 html{ 
-  background:linear-gradient(to bottom, #567fc9, #fae95c) no-repeat center center fixed;
+  background:linear-gradient(to bottom, rgb(0,102,204), rgb(255,204,0)) no-repeat center center fixed;
   filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#567fc9', endColorstr='#fae95c'); /* для IE6-9 */
-  background: -webkit-linear-gradient(top, bottom, #567fc9, #fae95c); /* для webkit-браузеров */
-  background: -moz-linear-gradient(top,  #567fc9, #fae95c); /* для firefox 3.6+ */ 
-  background: -o-linear-gradient(top,  #567fc9, #fae95c); /* для Opera 11.10+ */
-  background: -ms-linear-gradient(top,  #567fc9, #fae95c); /* для IE10+ */
+  background: -webkit-linear-gradient(top, bottom, rgb(0,102,204), rgb(255,204,0)); /* для webkit-браузеров */
+  background: -moz-linear-gradient(top,  rgb(0,102,204), rgb(255,204,0)); /* для firefox 3.6+ */ 
+  background: -o-linear-gradient(top,  rgb(0,102,204), rgb(255,204,0)); /* для Opera 11.10+ */
+  background: -ms-linear-gradient(top,  rgb(0,102,204), rgb(255,204,0)); /* для IE10+ */
   -webkit-background-size: cover;
   -moz-background-size: cover;
   -o-background-size: cover;
@@ -356,7 +356,7 @@ margin:0 auto;
 position:relative;
 top:-160px;
 left:63px;
-height:970px;
+
 }
 
 h3{
@@ -525,8 +525,10 @@ filter:progid:DXImageTransform.Microsoft.Alpha(opacity=0);
 background-image: url(logo.png);
 width:300px;
 height:335px;/*335px*/
-top:57%;
-left:79%;
+/*top:57%;*/
+/*left:79%;*/
+bottom:0px;
+right:0px;
 position:fixed;
 opacity:0.8;
 -khtml-opacity: 0.8;
